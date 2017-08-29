@@ -1,0 +1,14 @@
+GDG Feira de Santana
+Bem-vindo ao Grupo de Desenvolvedores Google de Feira de Santana (BA)
+O que é um GDG?
+Os Grupos de Desenvolvedores do Google (GDGs) são para desenvolvedores interessados em tecnologias de desenvolvimento do Google; Como as plataformas Android, Chrome, Drive e Google Cloud, e APIs de produtos, como a API do Cast, a API do Google Maps e a API do YouTube.
+
+Um GDG pode assumir muitas formas - de apenas algumas pessoas se juntando para assistir nossos últimos vídeos, grandes encontros com demos e conversas de tecnologia, para eventos como sprints de código e hackathons. No entanto, no núcleo, os GDGs são focados em desenvolvedores e conteúdo técnico, e o público principal deve ser desenvolvedor.
+Redes sociais
+
+* https://www.facebook.com/fsagdg/
+* https://plus.google.com/u/0/+GDGFeiradeSantana
+
+Próximos Eventos
+
+* GDG DevFest Nordeste 2017: https://devfestne.com.br/
