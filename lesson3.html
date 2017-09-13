@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GDG Feira de Santana</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        @viewport{
+            zoom: 1.0;
+            width: device-width;
+        }
+
+        .nav ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            background-color:#EDEDED;
+        }
+        .nav ul li { display: inline; }
+        .nav ul li a {
+            padding: 2px 10px;
+            display: inline-block;
+
+            /* visual do link */
+            background-color:#EDEDED;
+            color: #333;
+            text-decoration: none;
+            border-bottom:3px solid #EDEDED;
+        }
+        .nav ul li a:hover {
+            background-color:#D6D6D6;
+            color: #6D6D6D;
+            border-bottom:3px solid #14EA00;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-rows: 30% 60% 10%;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            grid-template-areas:
+            'header header'
+            'article aside'
+            'footer footer';
+        }
+
+        .header{
+            grid-area: header;
+        }
+
+        .article{
+            grid-area: article;
+        }
+
+        .aside{
+            grid-area: aside;
+        }
+
+        .footer{
+            grid-area: footer;
+        }
+
+        @media screen and (max-device-width: 600px) {   
+            .grid-container{
+                grid-gap: 10px;
+                grid-template-columns: 100%;
+                grid-template-rows: auto;
+                grid-template-areas: 
+                'header'
+                'article'
+                'aside'
+                'footer';
+            }
+        }
+    </style>
+  </head>
+  <body>
+      <div class="grid-container">
+        <header class="header">
+            <img width="100px" src="img/gdgfsa.png" alt="Logo GDG Feira de Santana">
+            <h1>GDG Feira de Santana</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">O que é um GDG?</a></li>
+                    <li><a href="#">Redes sociais</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="article">
+    <h2>Bem-vindo ao Grupo de Desenvolvedores Google de Feira de Santana (BA)</h2>
+      <p>Exemplo de estilo inline</p>
+      <video src="video/gdg.mp4" controls>Seu navegador não suporta a tag video</video>
+    </article>
+    <aside class="aside">
+        <ul>
+            <li>Facebook</li>
+            <li>YouTube</li>
+            <li>G+</li>
+        </ul>
+    </aside>
+    <footer>
+        &copy; Google Developers Group - Feira de Santana
+    </footer>
+    </div>
+  </body>
+</html>
